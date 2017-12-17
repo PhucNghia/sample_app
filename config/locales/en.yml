@@ -1,4 +1,10 @@
 en:
+  controllers:
+    users_controller:
+      no_find: "No find Users, sign up again please!"
+  helpers:
+    application_helper:
+      title: "Ruby on Rails Tutorial Sample App"
   layouts:
     footer:
       the: "The"
@@ -12,7 +18,13 @@ en:
       sample: "sample app"
       home: "Home"
       help: "Help"
+      users: "Users"
+      profile: "Profile"
+      settings: "Settings"
+      log_out: "Log out"
       log_in: "Log in"
+  shared:
+      error_messages: "The form contains"
   static_pages:
     about:
       about: "About"
@@ -43,4 +55,6 @@ en:
   users:
     new:
       sign_up: "Sign up"
-      text: "This will be a signup page for new users."
+      submit: "Create my account"
+    create:
+      hello: "Welcome to the Sample App"

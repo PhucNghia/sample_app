@@ -5,8 +5,12 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem "bcrypt", "3.1.11"
+gem "bootstrap-sass", "3.3.7"
 gem "coffee-rails", "~> 4.2"
+gem "config"
 gem "jbuilder", "~> 2.5"
+gem "jquery-rails"
 gem "puma", "~> 3.7"
 gem "rails", "~> 5.1.4"
 gem "sass-rails", "~> 5.0"
@@ -39,4 +43,4 @@ group :production do
   gem "pg", "0.18.4"
 end
 
-gem "bootstrap-sass", "3.3.7"
+
