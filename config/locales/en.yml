@@ -1,4 +1,7 @@
 en:
+  helpers:
+    application_helper:
+      title: "Ruby on Rails Tutorial Sample App"
   layouts:
     footer:
       the: "The"
