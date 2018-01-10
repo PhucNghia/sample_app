@@ -1,5 +1,7 @@
 en:
   controllers:
+    sessions_controller:
+      invalid: "Invalid email/password combination"
     users_controller:
       no_find: "No find Users, sign up again please!"
   helpers:
@@ -18,6 +20,10 @@ en:
       sample: "sample app"
       home: "Home"
       help: "Help"
+      users: "Users"
+      profile: "Profile"
+      settings: "Settings"
+      log_out: "Log out"
       log_in: "Log in"
   shared:
       error_messages: "The form contains"
